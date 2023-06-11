@@ -1,4 +1,3 @@
-
 # Table of Contents
 
 1.  [Star Wars Movie Guide](#org5042391)
@@ -44,13 +43,13 @@ may the Force be with you on this incredible adventure!
 
 # Screenshots
 
-[[![img](./images/landing.png "The landing page")]]
+![img](./images/landing.png "The landing page")
 
-[[![img](./images/sign.png "sign up page")]]
+![img](./images/sign.png "sign up page")
 
-[[![img](./images/login.png "login page")]]
+![img](./images/login.png "login page")
 
-[[![img](./images/films.png "films page")]]
+![img](./images/films.png "films page")
 
 
 <a id="org3b0d89d"></a>
