@@ -1,0 +1,21 @@
+section  {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 100%;
+}
+
+.cta {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+.cta > h1 {
+    font-size: 100px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.cta > h2 {
+    font-size: 20px;
+}

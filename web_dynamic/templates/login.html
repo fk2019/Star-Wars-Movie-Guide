@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"> </SCRIPT>
+    <TITLE>Star Wars Movie Guide</TITLE>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <LINK rel="stylesheet" href="../static/styles/common.css?{{ cache_id }}"/>
+    <LINK rel="stylesheet" href="../static/styles/header.css?{{ cache_id }}"/>
+    <LINK rel="stylesheet" href="../static/styles/login.css?cache_id={{ cache_id }}"/>
+
+  </HEAD>
+  <BODY>
+    <HEADER>
+      <div id="header_logo"></div>
+      <DIV class="header_name">Star Wars Movie Guide</DIV>
+      <NAV>
+	<UL class="nav">
+	  <LI><A href="/">Home</A></LI>
+	  <LI><A href="movies">Films</A></LI>
+	  <LI><A href="">Features</A></LI>
+	  <LI><A href="">Resources</A></LI>
+	</UL>
+      </NAV>
+      <DIV class="sign"><A href="signup">Sign Up</A></DIV>
+    </HEADER>
+    <DIV class="container">
+      <form>
+	<h3>Login</h3>
+	<label for="username">Username</label>
+	<input type="text" placeholder="Email or Phone" id="username">
+	<label for="password">Password</label>
+	<input type="password" placeholder="Password" id="password">
+	<button>Log In</button>
+	<div class="social">
+	  <div class="go"><i class="fab fa-google"></i>  Google</div>
+	  <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+	</div>
+      </form>
+    </DIV>
+    <FOOTER>
+      <small>&copy;2023 Francis Kamau</small>
+    </FOOTER>
+    </BODY>
+</HTML>

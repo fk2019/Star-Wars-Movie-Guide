@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"> </SCRIPT>
+                <TITLE>Star Wars Movie Guide</TITLE>
+
+                <LINK rel="stylesheet" href="../static/styles/common.css?{{ cache_id }}"/>
+                <LINK rel="stylesheet" href="../static/styles/header.css?{{ cache_id }}"/>
+                <LINK rel="stylesheet" href="../static/styles/movies.css?cache_id={{ cache_id }}"/>
+                <SCRIPT SRC="../static/scripts/movie.js?{{ cache_id }}"></SCRIPT>
+        </HEAD>
+  <BODY>
+                    <HEADER>
+                  <div id="header_logo"></div>
+		  <DIV class="header_name">Star Wars Movie Guide</DIV>
+		  <NAV>
+		    <UL class="nav">
+		      <LI><A href="/">Home</A></LI>
+		      <LI><A href="movies">Films</A></LI>
+		      <LI><A href="">Features</A></LI>
+		      <LI><A href="">Resources</A></LI>
+		    </UL>
+		  </NAV>
+		  <DIV class="sign"><A href="signup">Sign Up</A></DIV>
+		  <DIV class="login"><A href="login">Log In</A></DIV>
+
+                </HEADER>
+                <DIV class="container">
+                  <SECTION class="movies">
+		    {% for film in films|sort(attribute='release_date') %}
+		    <ARTICLE>
+		      <DIV></DIV>
+		    </ARTICLE>
+		    {% endfor %}
+                  </SECTION>
+                </DIV>
+                <FOOTER>
+                  <small>&copy;2023 Francis Kamau</small>
+                </FOOTER>
+    </BODY>
+</HTML>

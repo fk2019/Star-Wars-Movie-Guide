@@ -1,0 +1,29 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.poster {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.poster > div {
+    width: 250px;
+    height: 375px;
+    align-self: center;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+p {
+    text-align: center;
+}
