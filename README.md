@@ -44,13 +44,13 @@ may the Force be with you on this incredible adventure!
 # Screenshots
 
 ![img](./images/landing.png "The landing page")
-
+The landing page
 ![img](./images/sign.png "sign up page")
-
+Sign up page
 ![img](./images/login.png "login page")
-
+Log in page
 ![img](./images/films.png "films page")
-
+Films page
 
 <a id="org3b0d89d"></a>
 
