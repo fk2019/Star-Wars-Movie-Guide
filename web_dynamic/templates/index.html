@@ -8,33 +8,25 @@
 
                 <LINK rel="stylesheet" href="../static/styles/common.css?{{ cache_id }}"/>
                 <LINK rel="stylesheet" href="../static/styles/header.css?{{ cache_id }}"/>
-                <LINK rel="stylesheet" href="../static/styles/3-footer.css?{{ cache_id }}"/>
+                <LINK rel="stylesheet" href="../static/styles/footer.css?{{ cache_id }}"/>
                 <LINK rel="stylesheet" href="../static/styles/index.css?cache_id={{ cache_id }}"/>
                 <SCRIPT SRC="../static/scripts/index.js?{{ cache_id }}"></SCRIPT>
         </HEAD>
-    <BODY>
+  <BODY>
                 <HEADER>
-                  <div id="header_logo"></div>
 		  <DIV class="header_name">Star Wars Movie Guide</DIV>
-		  <NAV>
-		    <UL class="nav">
-		      <LI><A href="/">Home</A></LI>
-		      <LI><A href="movies">Films</A></LI>
-		      <LI class="features"><A href="">Features</A>
-			<UL class="popover">
-			  <LI><A href="#movie_list">Comprehensive movie list</A></LI>
-			  <LI><A href="#movie_details">In-depth movie details</A></LI>
-			  <LI><A href="#characters">Iconic character showcase</A></LI>
-			</UL>
-		      </LI>
-		      <LI><A href="">Resources</A></LI>
-
+		  <A class="home" href="/">Home</A>
+		  <A class="films" href="movies">Films</A>
+		  <DIV class="features"><A href="">Features</A>
+		  <UL class="popover">
+		    <LI><A href="#movie_list">Movie list</A></LI>
+		    <LI><A href="#movie_details">Movie details</A></LI>
+		    <LI><A href="#characters">Character showcase</A></LI>
 		  </UL>
-		  </NAV>
+		  </DIV>
+		  <A class="resources" href="">Resources</A>
 		  <DIV class="sign"><A href="signup">Sign Up</A></DIV>
 		  <DIV class="login"><A href="login">Log In</A></DIV>
-
-
                 </HEADER>
                 <DIV class="container">
                   <SECTION>
