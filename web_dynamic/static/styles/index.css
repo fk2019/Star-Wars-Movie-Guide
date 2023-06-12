@@ -1,3 +1,19 @@
+.popover {
+    list-style-type: none;
+    display: none;
+    width: 20%;
+    margin-top: 1%;
+    margin-right: auto;
+    padding: 25px 0px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    z-index: 1;
+    position: absolute;
+}
+.features:hover .popover {
+    display: flex;
+    flex-direction: column;
+}
 section  {
     display: flex;
     flex-direction: row;
