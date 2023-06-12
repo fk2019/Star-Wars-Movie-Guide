@@ -107,5 +107,5 @@ opportunities or inquiries.
 -   Cohort 9 and all peers: Thanks so much for your motivation and support.
 -   The MovieDB: A huge thanks to the entire team for providing us software
     engineers with a great API to work with.
--   \#TeamEmacs: For saving from the hell of exiting vim :)
+-   \#TeamEmacs: For saving me from the hell of exiting vim :)
 
