@@ -1,17 +1,32 @@
-
-section  {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.text{
     display: flex;
     flex-direction: row;
+    outline: blue dashed 1px;
+    flex-wrap: wrap;
 }
+.row, .cta {
+    width: 50%;
+}
+
+.banner {
+    outline: red dashed 1px;
+}
+/*
+.row > h2 {
+    margin-top: 0;
+}
+.row > h1 {
+    margin-bottom: 20px;
+}*/
 img {
     width: 100%;
 }
 
-.cta {
-    display: flex;
-    max-width: 500px;
-    flex-direction: column;
-}
+
 .cta > h1 {
     font-size: 100px;
     margin-bottom: auto;
