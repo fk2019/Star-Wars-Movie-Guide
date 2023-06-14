@@ -59,10 +59,11 @@ li {
     margin-right: 30px;
 }
 a {
-    color: white;
+    color: #ffe135;
     text-decoration: none;
     cursor: pointer;
 }
 a:hover {
     opacity: 50%;
+    color: #fffd37;
 }

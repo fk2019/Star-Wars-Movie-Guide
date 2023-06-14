@@ -5,7 +5,7 @@
                 <TITLE>Star Wars Movie Guide</TITLE>
 
                 <LINK rel="shortcut icon" href="../static/images/icon.png?{{ cache_id }}" />
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
                 <LINK rel="stylesheet" href="../static/styles/common.css?{{ cache_id }}"/>
                 <LINK rel="stylesheet" href="../static/styles/header.css?{{ cache_id }}"/>
                 <LINK rel="stylesheet" href="../static/styles/footer.css?{{ cache_id }}"/>
@@ -24,12 +24,12 @@
 		    <LI><A href="#characters">Character showcase</A></LI>
 		  </UL>
 		  </DIV>
-		  <A class="resources" href="">Resources</A>
+		  <A class="resources" href="#about">About</A>
 		  <DIV class="sign"><A href="signup">Sign Up</A></DIV>
 		  <DIV class="login"><A href="login">Log In</A></DIV>
                 </HEADER>
                 <DIV class="container">
-                  <SECTION class="text">
+                  <SECTION class="text" id="cta">
 		    <ARTICLE class="cta">
 		      <H1>Explore the galaxy far, far away with ease.</H1>
 		      <H2>
@@ -37,7 +37,7 @@
 		      </H2>
 		      <!-- Start now button for create account -->
 		    </ARTICLE>
-		    <DIV class="banner"></DIV>
+		    <DIV class="banner"><img src="../static/images/solo.jpeg"/></DIV>
                   </SECTION>
 		  <SECTION id="movie_list" class="text">
 		    <ARTICLE class="row">
@@ -48,7 +48,7 @@
 			Dive into the Star Wars universe with our comprehensive movie list. Each film is beautifully displayed, showcasing its title, release year, and a captivating poster image. Explore the galaxy by simply clicking on any movie for more details.
 		      </H2>
 		    </ARTICLE>
-		    <DIV class="banner"></DIV>
+		    <DIV class="banner"><img src="../static/images/films.png"/></DIV>
 		  </SECTION>
 		  <SECTION id="movie_details" class="text">
 		    <ARTICLE class="row">
@@ -59,7 +59,7 @@
 			Uncover the secrets of each Star Wars film with our in-depth movie details. From the title, release year, and director, to the main characters, plot summary, and exciting insights, get a comprehensive overview of the storyline and key elements that make each movie memorable.
 		      </H2>
 		    </ARTICLE>
-		    <DIV class="banner"></DIV>
+		    <DIV class="banner"><img src="../static/images/attack_clones.jpeg"/></DIV>
 		  </SECTION>
 		  <SECTION id="characters" class="text">
 		    <ARTICLE class="row">
@@ -83,14 +83,30 @@
 		      <!-- Start Now button for create account -->
 		    </ARTICLE>
 		  </SECTION>
+		  <SECTION id="about" class="text">
+		    <ARTICLE class="row">
+		      <H1>About</H1>
+		      <H3>
+		      <p>Star Wars Movie Guide is my portfolio project at <A =href="https://www.alxafrica.com/">ALX</A>. I came up with this project
+		      becuase I was inspired by the Star Wars Franchise. I mean, who doesn't like to explore the
+		      universe? Star Wars films are admired and watched by millions in our universe (and many more
+		      in other galaxies...far far away :)). Form weird beings to driods and clones, I was immersed
+		      into a new and strange world when I first watched Attack of the Clones.</p>
+<p>		      The film happened to be the first Star Wars film I ever watched and I was hooked. Of course I made sure I watched all of them and in the right order!. I then had an idea that probably one day I would create an app where not only I, but anyone else could easily access all the information related to Star Wars, and especially films. Thanks to ALX, I was finally able to implement it.</p>
+		      </H3>
+		    </ARTICLE>
+		    <DIV class="about">
+		    <DIV class="contacts"><A href="https://www.linkedin.com/in/francis-kamau-792953252/" target="_blank" rel="noopener noreferrer"><I class="fab fa-linkedin"></I></A></DIV>
+		    <DIV class="contacts"><A href="https://github.com/fk2019" target="_blank" rel="noopener noreferrer"><I class="fab fa-github"></I><div class="link">Github profile</div></A></DIV>
+		    <DIV class="contacts"><A href="https://twitter.com/fraje_k" target="_blank" rel="noopener noreferrer"><I class="fab fa-twitter"></I></A></DIV>
+		    <DIV class="contacts"><A href="https://github.com/fk2019/Star_Wars_Movie_Guide" target="_blank" rel="noopener noreferrer"><I class="fab fa-github"></I><div class="link">Repo</div></A></DIV>
+		    </DIV>
+		  </SECTION>
                 </DIV>
                 <FOOTER>
-		  <DIV class="accounts">
+		  <DIV class="contacts">
                     <small>&copy;2023 Francis Kamau</small>
 		  </DIV>
-		  <DIV class="accounts">Lorem</DIV>
-		  <DIV class="accounts">Ipsum</DIV>
-		  <DIV class="accounts">Vinifdsgsdgsdfgsfg</DIV>
                 </FOOTER>
     </BODY>
 </HTML>
