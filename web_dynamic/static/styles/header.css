@@ -5,6 +5,7 @@ header {
     padding-top: 30px;
     margin-bottom: 80px;
     font-size: bold;
+    justify-content: space-between;
 }
 header > a, header > div {
     margin-right: 40px;
@@ -33,10 +34,12 @@ header > a, header > div {
     align-self: flex-start;
 
 }
+.features {
+    margin-left: -20px;
+}
 .features:hover .popover {
     display: flex;
     flex-direction: column;
-    margin-left: -20px;
     margin-top: 10px;
 }
 
@@ -57,6 +60,7 @@ li {
 }
 .login {
     margin-right: 30px;
+    align-self: center;
 }
 a {
     color: #ffe135;
