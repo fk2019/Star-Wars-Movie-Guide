@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Different views for star wars api"""
 from flask import Flask, render_template
+from flask_cors import CORS
 import uuid
 
 
 app = Flask(__name__)
 
-
+#cors = CORS(app, resources={r'/*': {'origins': '127.0.0.1'}})
 @app.route('/', strict_slashes=True)
 def home():
     """Render landing page"""
@@ -32,4 +33,4 @@ def movie_list():
 
 if __name__ =="__main__":
     """Run app"""
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='localhost', port=5000)
