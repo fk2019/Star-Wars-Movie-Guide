@@ -1,4 +1,4 @@
-#!?usr/bin/env python3
+#!/usr/bin/env python3
 """Different views for star wars api"""
 from flask import Flask, render_template
 import uuid

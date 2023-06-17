@@ -2,6 +2,7 @@
 <HTML lang="en">
   <HEAD>
     <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"> </SCRIPT>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <TITLE>Star Wars Movie Guide</TITLE>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -26,7 +27,7 @@
       <DIV class="sign"><A href="signup">Sign Up</A></DIV>
     </HEADER>
     <DIV class="container">
-      <form>
+<!--      <form>
 	<h3>Login</h3>
 	<label for="username">Username</label>
 	<input type="text" placeholder="Email or Phone" id="username">
@@ -36,8 +37,24 @@
 	<div class="social">
 	  <div class="go"><i class="fab fa-google"></i>  Google</div>
 	</div>
-      </form>
+      </form> -->
     </DIV>
+<div id="g_id_onload"
+     data-client_id="775738149542-pkrp4pkuiat7n2e5p8u17888vg1cegji.apps.googleusercontent.com"
+     data-context="signin"
+     data-ux_mode="popup"
+     data-login_uri="http://localhost"
+     data-itp_support="true">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="rectangular"
+     data-theme="outline"
+     data-text="signin_with"
+     data-size="large"
+     data-logo_alignment="left">
+</div>
     <FOOTER>
       <small>&copy;2023 Francis Kamau</small>
     </FOOTER>
