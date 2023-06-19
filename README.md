@@ -36,12 +36,14 @@ may the Force be with you on this incredible adventure!
 
 <a id="org971271f"></a>
 
-# Getting Started
+## Getting Started
 
 1.  Visit the [Star Wars Movie Guide](http://34.232.69.25/) page.
 2.  Create account or login with custom credentials or OAuth
 3.  Explore Star Wars Movie Guide
 
+Visit my [LinkedIn](https://www.linkedin.com/in/francis-kamau-792953252/)
+read this article(coming soon!).
 
 <a id="org92a06b1"></a>
 
