@@ -7,6 +7,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
+#register the app with the app_views blueprint
 app.register_blueprint(app_views)
 cors = CORS(app, resources={r'/api/v1/*': {'origins': '*'}})
 
@@ -14,7 +15,7 @@ cors = CORS(app, resources={r'/api/v1/*': {'origins': '*'}})
 
 @app.errorhandler(404)
 def not_found(error):
-    """Return jasonified error"""
+    """Return jsonified error"""
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 

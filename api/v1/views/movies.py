@@ -18,6 +18,7 @@ def index():
     movies = response.json()['results']
     films = []
     genres = [12, 28, 878]
+    # obtain only films, not tvs etc
     for movie in movies:
         if genres == sorted(movie['genre_ids']):
             films.append(movie)
@@ -26,7 +27,7 @@ def index():
 
 @app_views.route('/movies/', strict_slashes=False)
 def movie_list():
-    """Chache results in redis and return the list"""
+    """Cache results in redis and return the list"""
     redis_client = redis.Redis(connection_pool=pool)
     if redis_client.exists('films'):
         films = redis_client.get('films').decode('utf-8')

@@ -7,7 +7,7 @@ import uuid
 
 app = Flask(__name__)
 
-#cors = CORS(app, resources={r'/*': {'origins': '127.0.0.1'}})
+
 @app.route('/', strict_slashes=True)
 def home():
     """Render landing page"""
