@@ -1,27 +1,27 @@
 
 # Table of Contents
 
-1.  [Star Wars Movie Guide](#orgde35412)
-2.  [Introduction](#orgef9d1d2)
-3.  [Getting Started](#org8558a1f)
-4.  [Screenshots](#org560e3f8)
-5.  [API](#org56e0844)
-6.  [Storage](#org39f54f4)
-7.  [Related Projects](#orgd6fb69f)
-8.  [Future](#orgda01e3a)
-9.  [Authors](#org6dcf453)
-10. [Acknowledgements](#orgdef5a77)
-11. [License](#org69c9df4)
+1.  [Star Wars Movie Guide](#org3d7a303)
+2.  [Introduction](#org4d0022b)
+3.  [Getting Started](#org971271f)
+4.  [Screenshots](#org92a06b1)
+5.  [API](#orgb45b854)
+6.  [Storage](#org0ba5a9b)
+7.  [Related Projects](#orgd1fb943)
+8.  [Future](#orgc826140)
+9.  [Authors](#org8dd2071)
+10. [Acknowledgements](#orge05ebb6)
+11. [License](#org1a6599e)
 
 
-<a id="orgde35412"></a>
+<a id="org3d7a303"></a>
 
 # Star Wars Movie Guide
 
 Explore the galaxy far, far away with ease
 
 
-<a id="orgef9d1d2"></a>
+<a id="org4d0022b"></a>
 
 # Introduction
 
@@ -34,28 +34,33 @@ franchise, our Star Wars Movie Guide is your ultimate companion. Join me now and
 may the Force be with you on this incredible adventure!
 
 
-<a id="org8558a1f"></a>
+<a id="org971271f"></a>
 
 # Getting Started
 
--   Create account or login with custom credentials or OAuth
--   Explore Star Wars films by clicking films
+1.  Visit the [landing](https://fk2019.github.io/home/) page.
+2.  Create account or login with custom credentials or OAuth
+3.  Explore Star Wars Movie Guide
 
 
-<a id="org560e3f8"></a>
+<a id="org92a06b1"></a>
 
 # Screenshots
 
-[[![img](./images/landing.png "The landing page")]]
+![img](./images/landing.png "The landing page")
+The landing page
 
-[[![img](./images/sign.png "sign up page")]]
+![img](./images/sign.png "sign up page")
+The sign up page
 
-[[![img](./images/login.png "login page")]]
+![img](./images/login.png "login page")
+The login page
 
-[[![img](./images/films.png "films page")]]
+![img](./images/films.png "films page")
+The films page
 
 
-<a id="org56e0844"></a>
+<a id="orgb45b854"></a>
 
 # API
 
@@ -63,7 +68,7 @@ I used <https://api.themoviedb.org/> API to fetch all resources for my backend. 
 then create end points for the front-end to utilized the customized api.
 
 
-<a id="org39f54f4"></a>
+<a id="org0ba5a9b"></a>
 
 # Storage
 
@@ -71,14 +76,14 @@ Data from the themoviedb API is fetched, stored in-memory using Redis and sent t
 the front-end.
 
 
-<a id="orgd6fb69f"></a>
+<a id="orgd1fb943"></a>
 
 # Related Projects
 
 -   [AirBnB Clone](https://github.com/fk2019/AirBnB_clone_v4)
 
 
-<a id="orgda01e3a"></a>
+<a id="orgc826140"></a>
 
 # Future
 
@@ -89,7 +94,7 @@ the front-end.
 -   And many more into the galaxy!
 
 
-<a id="org6dcf453"></a>
+<a id="org8dd2071"></a>
 
 # Authors
 
@@ -102,7 +107,7 @@ Please feel free to reach out to [Francis](https://github.com/fk2019) for any co
 opportunities or inquiries.
 
 
-<a id="orgdef5a77"></a>
+<a id="orge05ebb6"></a>
 
 # Acknowledgements
 
@@ -113,7 +118,7 @@ opportunities or inquiries.
 -   \#TeamEmacs: For saving from the hell of exiting vim :)
 
 
-<a id="org69c9df4"></a>
+<a id="org1a6599e"></a>
 
 # License
 
