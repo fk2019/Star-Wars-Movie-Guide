@@ -1,58 +1,61 @@
+
 # Table of Contents
 
-1.  [Star Wars Movie Guide](#org5042391)
-2.  [Introduction](#orgcc77f22)
-3.  [Getting Started](#org2b5d3a4)
-4.  [Screenshots](#org0af61e6)
-5.  [API](#org3b0d89d)
-6.  [Storage](#org076a2b3)
-7.  [Related Projects](#org52f5da1)
-8.  [Future](#org0455d0b)
-9.  [Authors](#org189dac8)
-10. [Acknowledgements](#org285ab8d)
+1.  [Star Wars Movie Guide](#orgde35412)
+2.  [Introduction](#orgef9d1d2)
+3.  [Getting Started](#org8558a1f)
+4.  [Screenshots](#org560e3f8)
+5.  [API](#org56e0844)
+6.  [Storage](#org39f54f4)
+7.  [Related Projects](#orgd6fb69f)
+8.  [Future](#orgda01e3a)
+9.  [Authors](#org6dcf453)
+10. [Acknowledgements](#orgdef5a77)
+11. [License](#org69c9df4)
 
 
-<a id="org5042391"></a>
+<a id="orgde35412"></a>
 
 # Star Wars Movie Guide
 
 Explore the galaxy far, far away with ease
 
 
-<a id="orgcc77f22"></a>
+<a id="orgef9d1d2"></a>
 
 # Introduction
 
-Embark on an epic journey through the Star Wars universe with our comprehensive
+Star Wars Movie Guide is a web application that allows anyone to embarkon an
+epic journey through the Star Wars universe with a comprehensive
 Movie Guide. Uncover the secrets of your favorite films, delve into the rich
 lore, and explore the captivating characters that have captured the hearts of
 millions across the galaxy. Whether you're a die-hard fan or a newcomer to the
-franchise, our Star Wars Movie Guide is your ultimate companion. Join us now and
+franchise, our Star Wars Movie Guide is your ultimate companion. Join me now and
 may the Force be with you on this incredible adventure!
 
 
-<a id="org2b5d3a4"></a>
+<a id="org8558a1f"></a>
 
 # Getting Started
 
--   Create account or login with custom credetials or Google OAuth
+-   Create account or login with custom credentials or OAuth
 -   Explore Star Wars films by clicking films
 
 
-<a id="org0af61e6"></a>
+<a id="org560e3f8"></a>
 
 # Screenshots
 
-![img](./images/landing.png "The landing page")
-The landing page
-![img](./images/sign.png "sign up page")
-Sign up page
-![img](./images/login.png "login page")
-Log in page
-![img](./images/films.png "films page")
-Films page
+[[![img](./images/landing.png "The landing page")]]
 
-<a id="org3b0d89d"></a>
+[[![img](./images/sign.png "sign up page")]]
+
+[[![img](./images/login.png "login page")]]
+
+[[![img](./images/films.png "films page")]]
+
+
+<a id="org56e0844"></a>
 
 # API
 
@@ -60,7 +63,7 @@ I used <https://api.themoviedb.org/> API to fetch all resources for my backend. 
 then create end points for the front-end to utilized the customized api.
 
 
-<a id="org076a2b3"></a>
+<a id="org39f54f4"></a>
 
 # Storage
 
@@ -68,14 +71,14 @@ Data from the themoviedb API is fetched, stored in-memory using Redis and sent t
 the front-end.
 
 
-<a id="org52f5da1"></a>
+<a id="orgd6fb69f"></a>
 
 # Related Projects
 
 -   [AirBnB Clone](https://github.com/fk2019/AirBnB_clone_v4)
 
 
-<a id="org0455d0b"></a>
+<a id="orgda01e3a"></a>
 
 # Future
 
@@ -86,7 +89,7 @@ the front-end.
 -   And many more into the galaxy!
 
 
-<a id="org189dac8"></a>
+<a id="org6dcf453"></a>
 
 # Authors
 
@@ -99,7 +102,7 @@ Please feel free to reach out to [Francis](https://github.com/fk2019) for any co
 opportunities or inquiries.
 
 
-<a id="org285ab8d"></a>
+<a id="orgdef5a77"></a>
 
 # Acknowledgements
 
@@ -107,5 +110,13 @@ opportunities or inquiries.
 -   Cohort 9 and all peers: Thanks so much for your motivation and support.
 -   The MovieDB: A huge thanks to the entire team for providing us software
     engineers with a great API to work with.
--   \#TeamEmacs: For saving me from the hell of exiting vim :)
+-   \#TeamEmacs: For saving from the hell of exiting vim :)
+
+
+<a id="org69c9df4"></a>
+
+# License
+
+This project is licensed under the terms of the MIT license.
+Please see the [LICENSE](https://github.com/fk2019/Star_Wars_Movie_Guide/blob/master/LICENSE.txt) file for more details.
 
