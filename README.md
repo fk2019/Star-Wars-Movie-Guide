@@ -38,7 +38,7 @@ may the Force be with you on this incredible adventure!
 
 # Getting Started
 
-1.  Visit the [landing](https://fk2019.github.io/home/) page.
+1.  Visit the [Star Wars Movie Guide](http://34.232.69.25/) page.
 2.  Create account or login with custom credentials or OAuth
 3.  Explore Star Wars Movie Guide
 
