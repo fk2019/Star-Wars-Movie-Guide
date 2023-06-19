@@ -43,7 +43,7 @@ may the Force be with you on this incredible adventure!
 3.  Explore Star Wars Movie Guide
 
 Visit my [LinkedIn](https://www.linkedin.com/in/francis-kamau-792953252/)
-read this article(coming soon!).
+and read this article(coming soon!).
 
 <a id="org92a06b1"></a>
 
