@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const image_path="https://image.tmdb.org/t/p/w1280";
-  const url = 'http://34.232.69.25/api/v1/movies/';
+  const url = 'http://13.50.109.132/api/v1/movies/';
   loadFilms();
   function loadFilms() {
     $.get(url, function (data) {

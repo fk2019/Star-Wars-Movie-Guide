@@ -1,28 +1,34 @@
-#!?usr/bin/env python3
+#!/usr/bin/env python3
 """Different views for star wars api"""
 from api.v1.views import app_views
 from flask import jsonify, abort, request, make_response
+from os import getenv
 import redis
 import requests
 import uuid
 
 
-api_key = '01d62744c62c7c8890fb5d5a3c788c53'
-pool = redis.ConnectionPool(host='localhost', port=6379, db=0)
+api_key = getenv('MOVIES_API_KEY')
+host = getenv('REDIS_HOST')
+db = getenv('REDIS_DB')
+port = getenv('REDIS_PORT')
+pool = redis.ConnectionPool(host=host, port=port, db=db)
 
 
 @app_views.route('/', strict_slashes=False)
 def index():
     """Load necessary landing data"""
     response = requests.get('https://api.themoviedb.org/3/search/movie?&api_key={}&query=star%20wars'.format(api_key))
-    movies = response.json()['results']
+    movies = response.json().get('results')
     films = []
     genres = [12, 28, 878]
     # obtain only films, not tvs etc
-    for movie in movies:
-        if genres == sorted(movie['genre_ids']):
-            films.append(movie)
-    return jsonify(films=films[1])
+    if movies:
+        for movie in movies:
+            if genres == sorted(movie['genre_ids']):
+                films.append(movie)
+        return jsonify(films=films[1])
+    return jsonify({'status': 'api error'})
 
 
 @app_views.route('/movies/', strict_slashes=False)
@@ -35,9 +41,9 @@ def movie_list():
     response = requests.get('https://api.themoviedb.org/3/search/movie?&api_key={}&query=star%20wars'.format(api_key))
     empire_r = requests.get('https://api.themoviedb.org/3/search/movie?&api_key={}&query=empire%20strikes%20back'.format(api_key))
     jedi_r = requests.get('https://api.themoviedb.org/3/search/movie?&api_key={}&query=return%20of%20the %20jedi'.format(api_key))
-    empire = empire_r.json()['results'][0]
-    jedi = jedi_r.json()['results'][0]
-    movies = response.json()['results']
+    empire = empire_r.json().get('results')[0]
+    jedi = jedi_r.json().get('results')[0]
+    movies = response.json().get('results')
     movies.append(empire)
     movies.append(jedi)
     films = []

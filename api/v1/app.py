@@ -12,7 +12,6 @@ app.register_blueprint(app_views)
 cors = CORS(app, resources={r'/api/v1/*': {'origins': '*'}})
 
 
-
 @app.errorhandler(404)
 def not_found(error):
     """Return jsonified error"""
