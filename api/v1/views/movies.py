@@ -9,10 +9,7 @@ import uuid
 
 
 api_key = getenv('MOVIES_API_KEY')
-host = getenv('REDIS_HOST')
-db = getenv('REDIS_DB')
-port = getenv('REDIS_PORT')
-pool = redis.ConnectionPool(host=host, port=port, db=db)
+pool = redis.ConnectionPool(host='127.0.0.1', port=6379, db=0)
 
 
 @app_views.route('/', strict_slashes=False)
